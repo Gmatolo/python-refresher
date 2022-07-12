@@ -11,6 +11,6 @@ func()
 def func():
     return 'Hello function'
 
-print(func())
+print(func().upper())
 
 func()
