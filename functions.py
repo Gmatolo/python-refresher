@@ -14,3 +14,11 @@ def func():
 print(func().upper())
 
 func()
+
+print("Working with default arguments")
+
+def func_hello(greeting):
+    return '{} Function'.format(greeting)
+
+
+print(func_hello("greetings"))
