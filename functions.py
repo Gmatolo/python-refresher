@@ -27,4 +27,4 @@ def func_hello(greeting, name= "Gerald"):
     return '{}, {} Welcome' .format(greeting, name)
 
 print(func_hello("Hello",))
-
+print(func_hello("Hello", name = 'muli'))
