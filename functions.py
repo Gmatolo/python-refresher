@@ -22,3 +22,9 @@ def func_hello(greeting):
 
 
 print(func_hello("greetings"))
+
+def func_hello(greeting, name= "Gerald"):
+    return '{}, {} Welcome' .format(greeting, name)
+
+print(func_hello("Hello",))
+
