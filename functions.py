@@ -6,3 +6,11 @@ func()
 func()
 func()
 func()
+
+
+def func():
+    return 'Hello function'
+
+print(func())
+
+func()
